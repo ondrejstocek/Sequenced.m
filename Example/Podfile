@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Sequenced.m_Example', :exclusive => true do
+  pod "Sequenced.m", :path => "../"
+end
+
+target 'Sequenced.m_Tests', :exclusive => true do
+  pod "Sequenced.m", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
