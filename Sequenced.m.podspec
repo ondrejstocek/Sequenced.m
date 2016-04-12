@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "Sequenced.m"
   s.version          = "0.1.0"
-  s.summary          = "A short description of Sequenced.m."
+  s.summary          = "Library for manipulation with ObjC collections in a functional way (inspired by Swift)."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+  						Library for manipulation with ObjC collections in a functional way (inspired by Swift)...
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/Sequenced.m"
+  s.homepage         = "https://github.com/ondrejstocek/Sequenced.m"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Ondrej Stocek" => "ondrej.stocek@strv.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/Sequenced.m.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/ondrejstocek/Sequenced.m.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'

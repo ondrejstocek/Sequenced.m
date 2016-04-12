@@ -22,7 +22,7 @@ pod "Sequenced.m"
 
 ## Author
 
-Ondrej Stocek, ondrej.stocek@strv.com
+Ondrej Stocek, ostocek@gmail.com
 
 ## License
 
